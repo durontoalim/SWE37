@@ -11,12 +11,17 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
+  margin: none;
+  padding: none;
+  background-color: black;
 }
 
-header {
+/* header {
   height: 100vh;
-}
-
+  margin: none;
+  padding: none;
+} */
+/* 
 .wrapper_header {
   position: relative;
 }
@@ -24,4 +29,29 @@ header {
 #button-section {
   position: absolute;
   bottom: 50px;
+} */
+
+
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../img/Welcome_to_section_E2.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-btnn{
+  padding-top: 300px;
 }
